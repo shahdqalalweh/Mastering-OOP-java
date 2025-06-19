@@ -16,5 +16,9 @@ public class User {
     public void print() {
         System.out.println("Student Name is " + this.name + ", his age is " + this.age + ", and his ID is " + this.id);
     }
+    @Override
+    public String toString (){
+        return "I am the Object " + this.name;
+    }
 }
 
