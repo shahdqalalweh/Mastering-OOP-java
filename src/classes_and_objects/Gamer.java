@@ -1,13 +1,22 @@
 package classes_and_objects;
 
+// Blue print
 public class Gamer {
+
+
+    //Instance Variables
     int health, stringth;
     String name ;
 
+    public Gamer(){} // default constructor (Auto)
+
     public Gamer( String name){
         this.name = name;
+       // name = name; لو عملنا هيك رح تتخزن ال name = null ==> Default   ==> Logical Error
+
         this.health = 100;
         this.stringth = 10;
+        //Local Variables
 
     }
 // set => void & get => return with the same data type
